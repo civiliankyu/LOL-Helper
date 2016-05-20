@@ -1,3 +1,7 @@
+app.controller('homeController', ['$scope', function($scope) {
+    console.log("Home Controller Loaded");
+}]);
+
 app.config(['$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider', '$ionicConfigProvider',
     function ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, $ionicConfigProvider) {
         console.log("Configuration Loaded");
