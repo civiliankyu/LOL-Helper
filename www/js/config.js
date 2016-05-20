@@ -2,13 +2,12 @@ app.config(['$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider'
     function ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, $ionicConfigProvider) {
         console.log("Configuration Loaded");
 
-        // var login = {
-        //     url: '/login',
-        //     templateUrl: "templates/login.html",
-        //     controller: "loginController"
-        // };
+        var home = {
+            url: '/home',
+            templateUrl: "views/home.html",
+            controller: "homeController"
+        };
 
-        //$stateProvider.state('login', login);
+        $stateProvider.state('home', home);
 
-        //$urlRouterProvider.otherwise('/login');
     }]);
