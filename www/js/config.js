@@ -14,4 +14,5 @@ app.config(['$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider'
 
         $stateProvider.state('home', home);
 
-    }]);
+  		$urlRouterProvider.otherwise('/home');
+}]);
