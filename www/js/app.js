@@ -1,4 +1,5 @@
 console.log("Loading Application");
+
 var app = angular.module('lol-helper', ['ionic'])
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
