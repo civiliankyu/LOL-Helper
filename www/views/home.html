@@ -2,18 +2,26 @@
 	<ion-content>
 		<button style="border: black 1px;"ng-click="doSomething()"> Click Me </button>
 
-  		<div class="list">
-	    	<div class="item" ng-repeat="user in users">
-	    		<div>
-	    			<img class="user_picture" src='{{user.picture.thumbnail}}'>
-	    			<div class="user_name">
-		    			<span>{{user.name.title}}</span>
-		    			<span>{{user.name.first}}</span>
-		    			<span>{{user.name.last}}</span>
-	    			</div>
-	    			<div>{{user.email}}</div>
-	    		</div>
-	    	</div>
-    	</div>
+  		<!--<div class="list">-->
+	    	<!--<div class="item" ng-repeat="user in users">-->
+	    		<!--<div>-->
+	    			<!--<img class="user_picture" src='{{user.picture.thumbnail}}'>-->
+	    			<!--<div class="user_name">-->
+		    			<!--<span>{{user.name.title}}</span>-->
+		    			<!--<span>{{user.name.first}}</span>-->
+		    			<!--<span>{{user.name.last}}</span>-->
+	    			<!--</div>-->
+	    			<!--<div>{{user.email}}</div>-->
+	    		<!--</div>-->
+	    	<!--</div>-->
+    	<!--</div>-->
+
+		<div class="list">
+			<div class="item">
+				<div class="champion" ng-repeat="champion in champions">
+					<img ng-src="{{champion.img}}">
+				</div>
+			</div>
+		</div>
 	</ion-content>
 </ion-view>
