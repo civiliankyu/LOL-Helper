@@ -27,7 +27,7 @@ app.controller('homeController', ['$scope', '$state',
 				id :		2,
 				name:		"ahri",
 				position:	"mid",
-				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ahri.png"
+				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ahri.png",
 				price : {
 					rp : 880,
 					ip : 4800
@@ -64,7 +64,7 @@ app.controller('homeController', ['$scope', '$state',
 				id:		5,
 				name:	"amumu",
 				position:	"jungle",
-				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Amumu.png"
+				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Amumu.png",
 				price : {
 					rp:260,
 					ip:450
