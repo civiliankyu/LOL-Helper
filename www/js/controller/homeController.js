@@ -21,7 +21,6 @@ app.controller('homeController', ['$scope', '$state',
 						name : "Blood Thirst / Blood Price",
 						desc : "While toggled on Aatrox deals bonus damage every third subsequent attack at the expense of his own Health. While toggled off Aatrox restores Health every third subsequent attack. Toggle Off: Blood Thirst: Every third attack, Aatrox restores 20/25/30/35/40 (+25% bonus Attack Damage) Health, increased by 200% when below half Health. Toggle On: Blood Price: Every third attack, Aatrox deals 60/95/130/165/200 (+100% bonus Attack Damage) bonus physical damage and loses Health."
 					}
-					
 				}
 			},
 			{
@@ -35,7 +34,7 @@ app.controller('homeController', ['$scope', '$state',
 				},
 				skills : {
 
-				},
+				}
 			},
 			{
 				id :		3,
@@ -59,7 +58,7 @@ app.controller('homeController', ['$scope', '$state',
 					rp:585,
 					ip:1350
 
-				},
+				}
 			},
 			{
 				id:		5,
@@ -70,7 +69,7 @@ app.controller('homeController', ['$scope', '$state',
 					rp:260,
 					ip:450
 
-				},
+				}
 
 
 			},
@@ -81,9 +80,9 @@ app.controller('homeController', ['$scope', '$state',
 				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Anivia.png",
 				price : {
 					rp: 790,
-					ip: 3150,
+					ip: 3150
 
-				},
+				}
 
 			},
 			{
@@ -94,7 +93,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 260,
 					ip:450
-				},
+				}
 
 			},
 			{
@@ -105,7 +104,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 260,
 					ip:450
-				},
+				}
 
 			},
 			{
@@ -116,7 +115,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 975,
 					ip:6300
-				},
+				}
 
 			},
 			{
@@ -127,7 +126,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 975,
 					ip:6300
-				},
+				}
 
 			},
 			{
@@ -138,7 +137,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 975,
 					ip:6300
-				},
+				}
 
 			},
 			{
@@ -149,7 +148,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 790,
 					ip:3150
-				},
+				}
 
 			},
 			{
@@ -160,7 +159,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 880,
 					ip:4800
-				},
+				}
 
 			},
 			{
@@ -171,7 +170,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 975,
 					ip:450
-				},
+				}
 
 			},
 			{
@@ -182,7 +181,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 880,
 					ip:4800
-				},
+				}
 
 			},
 			{
@@ -193,7 +192,7 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 880,
 					ip:4800
-				},
+				}
 
 			},
 			{
@@ -204,9 +203,9 @@ app.controller('homeController', ['$scope', '$state',
 				price : {
 					rp: 260,
 					ip:450
-				},
+				}
 
-			},
+			}
 			
 			// 	{
 			// 	id:		7,
@@ -361,11 +360,6 @@ app.controller('homeController', ['$scope', '$state',
 			// 	},
             //
 			// },
-			
-			
-
-
-
 
 		];
 
