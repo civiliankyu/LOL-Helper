@@ -208,22 +208,38 @@ app.controller('homeController', ['$scope', '$state',
 			}
 		];
 
-		$scope.users = [];
-
 		$scope.doSomething = function () {
 			console.log("I did something");
 		};
 
-		// $.ajax({
-		//   url: 'https://randomuser.me/api/',
-		//   data: {results : 5},
-		//   dataType: 'json',
-		//   success: function(data){
-		//   	//console.log(data);
-		//   	$scope.users = data.results;
-		//   	console.log($scope.users);
-		//   }
-		// }).then(function () {
-		// 	$scope.$apply();
-		// });
+		var champions_size = $scope.champions.length;
+		var max_row = Math.ceil(champions_size / 4);
+
+		console.log(champions_size, max_row);
+
+		function populateData() {
+			var html = "";
+			var current_champion = 0;
+
+			for (row = 0; row < max_row; row++) {
+				html += "<div class='row'>";
+				for (col = 0; col < 4; col++) {
+					if ($scope.champions[current_champion]) {
+						html += "<div class='col-md-3 col-lg-3 col-xs-3'>"
+							+ "<img class='champion-grid-img' src='" + $scope.champions[current_champion].img + "'>"
+							+ "<div class='champion-grid-name'>" + $scope.champions[current_champion].name + "</div>"
+							+ "</div>";
+						current_champion++;
+					}
+				}
+				html += "</div>"
+			}
+			$('#champion-grid').html(html);
+		}
+
+
+		$(document).ready(function () {
+			populateData();
+		});
+
 }]);
