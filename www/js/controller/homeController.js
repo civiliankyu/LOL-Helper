@@ -337,13 +337,24 @@ app.controller('homeController', ['$scope', '$state',
 				}
 
 			},
-		
+            {
+                id:		30,
+                name:	"Galio",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Galio.png",
+                price : {
+                    rp: 880,
+                    ip:4800
+                }
+
+            },
 
 
 
 
 
-		],
+
+        ],
 
 		$scope.doSomething = function () {
 			console.log("I did something");
