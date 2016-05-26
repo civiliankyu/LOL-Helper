@@ -21,8 +21,22 @@ app.controller('homeController', ['$scope', '$state',
 						name : "Blood Thirst / Blood Price",
 						desc : "While toggled on Aatrox deals bonus damage every third subsequent attack at the expense of his own Health. While toggled off Aatrox restores Health every third subsequent attack. Toggle Off: Blood Thirst: Every third attack, Aatrox restores 20/25/30/35/40 (+25% bonus Attack Damage) Health, increased by 200% when below half Health. Toggle On: Blood Price: Every third attack, Aatrox deals 60/95/130/165/200 (+100% bonus Attack Damage) bonus physical damage and loses Health."
 					}
+
 				}
-			}
+			},
+            {
+                id: 2,
+                name: "test",
+                position:"test1",
+                img: "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ahri.png",
+                price : {
+                    rp: 975,
+                    ip: 6300
+                }
+
+
+            }
+
 		];
 
 		$scope.users = [];
