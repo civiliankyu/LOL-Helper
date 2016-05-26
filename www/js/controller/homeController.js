@@ -5,7 +5,7 @@ app.controller('homeController', ['$scope', '$state',
 		$scope.champions = [
 			{
 				id :		1,
-				name:		"aatrox",
+				name:		"Aatrox",
 				position:	"top",
 				img: "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Aatrox.png",
 				price : {
@@ -25,7 +25,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id :		2,
-				name:		"ahri",
+				name:		"Ahri",
 				position:	"mid",
 				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ahri.png",
 				price : {
@@ -38,7 +38,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id :		3,
-				name:		"akali",
+				name:		"Akali",
 				position:	"mid, top",
 				img: "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Akali.png",
 				price : {
@@ -51,7 +51,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id :		4,
-				name:	"alistar",
+				name:	"Alistar",
 				position: "support",
 				img: "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Alistar.png",
 				price : {
@@ -62,7 +62,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		5,
-				name:	"amumu",
+				name:	"Amumu",
 				position:	"jungle",
 				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Amumu.png",
 				price : {
@@ -75,7 +75,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		6,
-				name:	"anivia",
+				name:	"Anivia",
 				position:	"mid",
 				img:	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Anivia.png",
 				price : {
@@ -87,7 +87,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		7,
-				name:	"annie",
+				name:	"Annie",
 				position:	"mid",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Annie.png",
 				price : {
@@ -98,7 +98,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		8,
-				name:	"ashe",
+				name:	"Ashe",
 				position:	"adc",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ashe.png",
 				price : {
@@ -109,7 +109,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		9,
-				name:	"aurelion sol",
+				name:	"Aurelion sol",
 				position:	"mid",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/AurelionSol.png",
 				price : {
@@ -120,7 +120,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		10,
-				name:	"azir",
+				name:	"Azir",
 				position:	"mid",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Azir.png",
 				price : {
@@ -131,7 +131,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		11,
-				name:	"bard",
+				name:	"Bard",
 				position:	"support",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Bard.png",
 				price : {
@@ -142,7 +142,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		12,
-				name:	"blitzcrank",
+				name:	"Blitzcrank",
 				position:	"support",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Blitzcrank.png",
 				price : {
@@ -153,7 +153,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		13,
-				name:	"brand",
+				name:	"Brand",
 				position:	"mid,support",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Brand.png",
 				price : {
@@ -164,7 +164,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		14,
-				name:	"braum",
+				name:	"Braum",
 				position:	"support",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Braum.png",
 				price : {
@@ -175,7 +175,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		15,
-				name:	"caitlyn",
+				name:	"Caitlyn",
 				position:	"adc",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Caitlyn.png",
 				price : {
@@ -186,7 +186,7 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		16,
-				name:	"cassiopeia",
+				name:	"Cassiopeia",
 				position:	"mid",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Cassiopeia.png",
 				price : {
@@ -197,16 +197,153 @@ app.controller('homeController', ['$scope', '$state',
 			},
 			{
 				id:		17,
-				name:	"cho gath",
+				name:	"Cho Gath",
 				position:	"mid,top",
 				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Chogath.png",
 				price : {
-					rp: 260,
-					ip:450
+					rp: 585,
+					ip:1350
 				}
 
-			}
-		];
+			},
+			{
+				id:		18,
+				name: "Corki",
+				position:	"adc",
+				img :	"http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Corki.png",
+				price : {
+					rp: 790,
+					ip: 3150
+				}
+			},
+			{
+				id:		19,
+				name:	"Darius",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Darius.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+			{
+				id:		20,
+				name:	"Diana",
+				position:	"mid",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Diana.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		21,
+				name:	"Dr.Mundo",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/DrMundo.png",
+				price : {
+					rp: 585,
+					ip:1350
+				}
+
+			},
+			{
+				id:		22,
+				name:	"Draven",
+				position:	"adc",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Draven.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		23,
+				name:	"Ekko",
+				position:	"jungle,top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ekko.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		24,
+				name:	"Elise",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Elise.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		25,
+				name:	"Evelynn",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Evelynn.png",
+				price : {
+					rp: 1350,
+					ip:585
+				}
+
+			},
+			{
+				id:		26,
+				name:	"Ezreal",
+				position:	"adc",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ezreal.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+			{
+				id:		27,
+				name:	"Fiddlesticks",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/FiddleSticks.png",
+				price : {
+					rp: 585,
+					ip:1350
+				}
+
+			},
+			{
+				id:		28,
+				name:	"Fiora",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Fiora.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+			{
+				id:		29,
+				name:	"Fizz",
+				position:	"mid",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Fizz.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+		
+
+
+
+
+
+		],
 
 		$scope.doSomething = function () {
 			console.log("I did something");
@@ -242,4 +379,5 @@ app.controller('homeController', ['$scope', '$state',
 			populateData();
 		});
 
-}]);
+}
+]);
