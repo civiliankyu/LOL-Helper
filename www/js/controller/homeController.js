@@ -348,6 +348,242 @@ app.controller('homeController', ['$scope', '$state',
                 }
 
             },
+			{
+				id:		31,
+				name:	"Gangplank",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Gangplank.png",
+				price : {
+					rp: 790,
+					ip:3150
+				}
+
+			},
+			{
+				id:		32,
+				name:	"Garen",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Garen.png",
+				price : {
+					rp: 260,
+					ip:450
+				}
+
+			},
+			{
+				id:		33,
+				name:	"Gnar",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Gnar.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		34,
+				name:	"Hecarim",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Hecarim.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+			{
+				id:		35,
+				name:	"Heimerdinger",
+				position:	"mid,top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Heimerdinger.png",
+				price : {
+					rp: 790,
+					ip:3150
+				}
+
+			},
+			{
+				id:		36,
+				name:	"Illaoi",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Illaoi.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		37,
+				name:	"Irelia",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Irelia.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+			{
+				id:		38,
+				name:	"Janna",
+				position:	"support",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Janna.png",
+				price : {
+					rp: 585,
+					ip:1350
+				}
+
+			},
+			{
+				id:		39,
+				name:	"Jayce",
+				position:	"mid,top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Jayce.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		40,
+				name:	"Jhin",
+				position:	"adc",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Jhin.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		41,
+				name:	"Jinx",
+				position:	"adc",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Jinx.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		41,
+				name:	"Kalista",
+				position:	"adc",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Kalista.png",
+				price : {
+					rp: 975,
+					ip:6300
+				}
+
+			},
+			{
+				id:		41,
+				name:	"Karma",
+				position:	"mid,support",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Karma.png",
+				price : {
+					rp: 585,
+					ip:1350
+				}
+
+			},
+			{
+				id:		42,
+				name:	"Katarina",
+				position:	"mid",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Katarina.png",
+				price : {
+					rp: 790,
+					ip:3150
+				}
+
+			},
+			{
+				id:		43,
+				name:	"Kayle",
+				position:	"mid,top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Kayle.png",
+				price : {
+					rp: 260,
+					ip:450
+				}
+
+			},
+			{
+				id:		44,
+				name:	"Kennen",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Kennen.png",
+				price : {
+					rp: 880,
+					ip:4800
+				}
+
+			},
+			{
+				id:		45,
+				name:	"Khazix",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Khazix.png",
+				price : {
+
+				}
+
+			},
+			{
+				id:		46,
+				name:	"Kindred",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Kindred.png",
+				price : {
+
+				}
+
+			},
+			{
+				id:		47,
+				name:	"LeeSin",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/LeeSin.png",
+				price : {
+
+				}
+
+			},
+			{
+				id:		48,
+				name:	"Leona",
+				position:	"support",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Leona.png",
+				price : {
+
+				}
+
+			},
+			{
+				id:		49,
+				name:	"Lissandra",
+				position:	"mid, top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Lissandra.png",
+				price : {
+
+				}
+
+			},
+			
+
+
+
+
+
+
+
+			
+			
 
 
 
