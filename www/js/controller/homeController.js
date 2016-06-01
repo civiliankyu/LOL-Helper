@@ -574,7 +574,186 @@ app.controller('homeController', ['$scope', '$state',
 				}
 
 			},
-			
+            {
+                id:		50,
+                name:	"Lucian",
+                position:	"adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Lucian.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		51,
+                name:	"Lulu",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Lulu.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		52,
+                name:	"Lux",
+                position:	"adc, mid, support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Lux.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		53,
+                name:	"Malphite",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Malphite.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		54,
+                name:	"Malzahar",
+                position:	"mid, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Malzahar.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		55,
+                name:	"Maokai",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Maokai.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		56,
+                name:	"Master Yi",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/MasterYi.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		57,
+                name:	"Miss Fortune",
+                position:	"adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/MissFortune.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		58,
+                name:	"Mordekaiser",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Mordekaiser.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		59,
+                name:	"Morgana",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Morgana.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		60,
+                name:	"Nami",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nami.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		61,
+                name:	"Nasus",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nasus.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		62,
+                name:	"Nautilus",
+                position:	"top, support, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nautilus.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		63,
+                name:	"Nidalee",
+                position:	"mid, top, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nidalee.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		64,
+                name:	"Nocturne",
+                position:	"mid, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nocturne.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		65,
+                name:	"Nunu",
+                position:	"mid, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nunu.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		66,
+                name:	"Olaf",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Olaf.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		67,
+                name:	"Orianna",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Orianna.png",
+                price : {
+
+                }
+
+            },
 
 
 
@@ -582,8 +761,7 @@ app.controller('homeController', ['$scope', '$state',
 
 
 
-			
-			
+
 
 
 
