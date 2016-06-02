@@ -727,7 +727,7 @@ app.controller('homeController', ['$scope', '$state',
             {
                 id:		65,
                 name:	"Nunu",
-                position:	"mid, jungle",
+                position:	"jungle",
                 img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Nunu.png",
                 price : {
 
@@ -754,6 +754,135 @@ app.controller('homeController', ['$scope', '$state',
                 }
 
             },
+			{
+				id:		68,
+				name:	"Pantheon",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Pantheon.png",
+				price : {
+
+				}
+
+			},
+			{
+				id:		68,
+				name:	"Poppy",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Poppy.png",
+				price : {
+
+				}
+
+			},{
+				id:		69,
+				name:	"Quinn",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Quinn.png",
+				price : {
+
+				}
+
+			},{
+				id:		70,
+				name:	"Rammus",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Rammus.png",
+				price : {
+
+				}
+
+			},{
+				id:		71,
+				name:	"Rek'Sai",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/RekSai.png",
+				price : {
+
+				}
+
+			},{
+				id:		72,
+				name:	"Reneckton",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Renekton.png",
+				price : {
+
+				}
+
+			},{
+				id:		73,
+				name:	"Rengar",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Rengar.png",
+				price : {
+
+				}
+
+			},{
+				id:		74,
+				name:	"Riven",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Riven.png",
+				price : {
+
+				}
+
+			},{
+				id:		75,
+				name:	"Rumble",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Rumble.png",
+				price : {
+
+				}
+
+			},{
+				id:		76,
+				name:	"Ryze",
+				position:	"mid,top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ryze.png",
+				price : {
+
+				}
+
+			},{
+				id:		77,
+				name:	"Sejuani",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Sejuani.png",
+				price : {
+
+				}
+
+			},{
+				id:		78,
+				name:	"Shaco",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Shaco.png",
+				price : {
+
+				}
+
+			},{
+				id:		79,
+				name:	"Shen",
+				position:	"top",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Shen.png",
+				price : {
+
+				}
+
+			},{
+				id:		80,
+				name:	"Shyvana",
+				position:	"jungle",
+				img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Shyvana.png",
+				price : {
+
+				}
+
+			},
+
 
 
 
