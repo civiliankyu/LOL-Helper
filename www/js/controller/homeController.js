@@ -872,7 +872,8 @@ app.controller('homeController', ['$scope', '$state',
 
 				}
 
-			},{
+			},
+            {
 				id:		80,
 				name:	"Shyvana",
 				position:	"jungle",
@@ -882,19 +883,407 @@ app.controller('homeController', ['$scope', '$state',
 				}
 
 			},
+            {
+                id:		81,
+                name:	"Singed",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Singed.png",
+                price : {
 
+                }
 
+            },
+            {
+                id:		82,
+                name:	"Sion",
+                position:	"top, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Sion.png",
+                price : {
 
+                }
 
+            },
 
+            {
+                id:		83,
+                name:	"Sivir",
+                position:	"adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Sivir.png",
+                price : {
 
+                }
 
+            },
+            {
+                id:		84,
+                name:	"Skarner",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Skarner.png",
+                price : {
 
+                }
 
+            },
+            {
+                id:		85,
+                name:	"Sona",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Sona.png",
+                price : {
 
+                }
 
+            },
+            {
+                id:		86,
+                name:	"Soraka",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Soraka.png",
+                price : {
 
+                }
 
+            },
+            {
+                id:		87,
+                name:	"Swain",
+                position:	"mid, top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Swain.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		88,
+                name:	"Syndra",
+                position:	"mid, top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Syndra.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		89,
+                name:	"TahmKench",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/TahmKench.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		90,
+                name:	"Taliyah",
+                position:	"jungle, mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Taliyah.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		91,
+                name:	"Talon",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Talon.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		92,
+                name:	"Taric",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Taric.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		93,
+                name:	"Teemo",
+                position:	"top, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Teemo.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		94,
+                name:	"Thresh",
+                position:	"support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Thresh.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		95,
+                name:	"Tristana",
+                position:	"adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Tristana.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		96,
+                name:	"Trundle",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Trundle.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		97,
+                name:	"Tryndamere",
+                position:	"top, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Tryndamere.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		98,
+                name:	"TwistedFate",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/TwistedFate.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		99,
+                name:	"Twitch",
+                position:	"jungle, adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Twitch.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		100,
+                name:	"Udyr",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Udyr.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		101,
+                name:	"Urgot",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Urgot.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		102,
+                name:	"Varus",
+                position:	"adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Varus.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		103,
+                name:	"Vayne",
+                position:	"adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Vayne.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		104,
+                name:	"Veigar",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Veigar.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		105,
+                name:	"Velkoz",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Velkoz.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		106,
+                name:	"Vi",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Vi.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		107,
+                name:	"Viktor",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Viktor.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		108,
+                name:	"Vladimir",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Vladimir.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		109,
+                name:	"Volibear",
+                position:	"top, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Volibear.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		110,
+                name:	"Warwick",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Warwick.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		111,
+                name:	"Wukong",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/MonkeyKing.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		112,
+                name:	"Xerath",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Xerath.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		113,
+                name:	"XinZhao",
+                position:	"top, jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/XinZhao.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		114,
+                name:	"Yasuo",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Yasuo.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		115,
+                name:	"Yorick",
+                position:	"top",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Yorick.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		116,
+                name:	"Zac",
+                position:	"jungle",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Zac.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		117,
+                name:	"Zed",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Zed.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		118,
+                name:	"Ziggs",
+                position:	"mid, adc",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Ziggs.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		119,
+                name:	"Zilean",
+                position:	"mid",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Zilean.png",
+                price : {
+
+                }
+
+            },
+            {
+                id:		120,
+                name:	"Zyra",
+                position:	"mid, support",
+                img : "http://ddragon.leagueoflegends.com/cdn/6.10.1/img/champion/Zyra.png",
+                price : {
+
+                }
+
+            },
 
 
         ],
