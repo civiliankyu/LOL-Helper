@@ -1,7 +1,3 @@
-app.controller('homeController', ['$scope', function($scope) {
-    console.log("Home Controller Loaded");
-}]);
-
 app.config(['$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider', '$ionicConfigProvider',
     function ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, $ionicConfigProvider) {
         console.log("Configuration Loaded");
@@ -12,7 +8,14 @@ app.config(['$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider'
             controller: "homeController"
         };
 
-        $stateProvider.state('home', home);
+        var champion_detail = {
+            url: '/championDetail/:id',
+            templateUrl : 'views/champion_detail.html',
+            controller: "championDetailController"
+        };
 
-  		$urlRouterProvider.otherwise('/home');
+        $stateProvider.state('home', home);
+        $stateProvider.state('champion_detail', champion_detail);
+
+  		//$urlRouterProvider.otherwise('/home');
 }]);
